@@ -1,13 +1,13 @@
 library dooadex_palette;
 
 /// Color
-export 'package:dooadex_palette/src/color/dooadex_color.dart';
-export 'package:dooadex_palette/src/color/dooadex_color_swatch.dart';
+export 'src/color/dooadex_color.dart';
+export 'src/color/dooadex_color_swatch.dart';
 
 /// Typography
-export 'package:dooadex_palette/src/typography/dooadex_typo.dart';
-export 'package:dooadex_palette/src/typography/typo_constants.dart';
+export 'src/typography/dooadex_typo.dart';
+export 'src/typography/typo_constants.dart';
 
 /// Palette Tool
-export 'package:dooadex_palette/src/palette_tools.dart';
+export 'src/palette_tools.dart';
 
