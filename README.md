@@ -1,4 +1,4 @@
-# dooadex_constants
+# dooadex_palette
 
 ## Features
 
