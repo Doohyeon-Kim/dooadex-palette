@@ -1,6 +1,6 @@
 name: dooadex_palette
 description: A useful palette
-version: 0.0.2
+version: 0.0.3
 repository: "https://github.com/Doohyeon-Kim/dooadex-palette.git"
 
 environment:
@@ -14,7 +14,7 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^2.0.0
+  flutter_lints: ^2.0.1
 
 flutter:
    fonts:

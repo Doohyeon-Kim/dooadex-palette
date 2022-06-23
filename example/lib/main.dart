@@ -13,7 +13,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Dooadex Package Test App',
       theme: ThemeData(
-        primarySwatch: MaterialColor(DooadexColor.primaryMaterialColor.colorHex, DooadexColor.primaryMaterialColor.swatch),
+        primarySwatch: MaterialColor(DooadexColor.primaryMaterialColor.colorHex,
+            DooadexColor.primaryMaterialColor.swatch),
       ),
       home: const MyHomePage(title: 'Dooadex Home Page'),
     );
@@ -38,9 +39,88 @@ class _MyHomePageState extends State<MyHomePage> {
       body: Center(
         child: Column(
           children: [
-            ElevatedButton(
-              onPressed: () {},
-              child: const Text("Test"),
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Row(
+                children: [
+                  Container(
+                    width: 20,
+                    height: 20,
+                    color: DooadexColor.primary,
+                  ),
+                  Container(
+                    width: 20,
+                    height: 20,
+                    color: DooadexColor.secondary,
+                  ),
+                  Container(
+                    width: 20,
+                    height: 20,
+                    color: DooadexColor.tertiary,
+                  ),
+                  Spacer(),
+                  Container(
+                    width: 20,
+                    height: 20,
+                    color: DooadexColor.pinkLavender,
+                  ),
+                  Container(
+                    width: 20,
+                    height: 20,
+                    color: DooadexColor.lilac,
+                  ),
+                  Container(
+                    width: 20,
+                    height: 20,
+                    color: DooadexColor.bilobaFlower,
+                  ),
+                  Container(
+                    width: 20,
+                    height: 20,
+                    color: DooadexColor.veryPeri,
+                  ),
+                  Container(
+                    width: 20,
+                    height: 20,
+                    color: DooadexColor.purpleMountainMajesty,
+                  ),
+                  Container(
+                    width: 20,
+                    height: 20,
+                    color: DooadexColor.royalPurple,
+                  ),
+                  Container(
+                    width: 20,
+                    height: 20,
+                    color: DooadexColor.deepPurple,
+                  ),
+                  Container(
+                    width: 20,
+                    height: 20,
+                    color: DooadexColor.tyrianPurple,
+                  ),
+                  Container(
+                    width: 20,
+                    height: 20,
+                    color: DooadexColor.mahoganyRed,
+                  ),
+                  Container(
+                    width: 20,
+                    height: 20,
+                    color: DooadexColor.carmine,
+                  ),
+                  Container(
+                    width: 20,
+                    height: 20,
+                    color: DooadexColor.oldLavender,
+                  ),
+                  Container(
+                    width: 20,
+                    height: 20,
+                    color: DooadexColor.grey,
+                  ),
+                ],
+              ),
             ),
             Text("NotoSansKR 노토산스", style: NotoSansKR.thin(fontSize: 20)),
             Text("NotoSansKR 노토산스", style: NotoSansKR.light(fontSize: 20)),
