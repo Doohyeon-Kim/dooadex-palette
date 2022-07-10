@@ -14,7 +14,7 @@ class PaletteTools {
 
 class _ColorTool{
 
-   Map<int, Color> generateSwatch(DooadexColorSwatch colorSwatch) {
+   Map<int, Color> generateSwatch(DdxColorSwatch colorSwatch) {
     return {
       colorSwatch.shadeLevel[0]: colorSwatch.shade50,
       colorSwatch.shadeLevel[1]: colorSwatch.shade100,
@@ -29,7 +29,7 @@ class _ColorTool{
     };
   }
 
-   MaterialColor generateMaterialColor(int colorHex, DooadexColorSwatch colorSwatch) {
+   MaterialColor generateMaterialColor(int colorHex, DdxColorSwatch colorSwatch) {
     MaterialColor materialColor = MaterialColor();
     materialColor.colorHex = colorHex;
     materialColor.swatch = generateSwatch(colorSwatch);

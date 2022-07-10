@@ -11,10 +11,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Dooadex Package Test App',
       theme: ThemeData(
-        primarySwatch: MaterialColor(DooadexColor.primaryMaterialColor.colorHex,
-            DooadexColor.primaryMaterialColor.swatch),
+        primarySwatch: MaterialColor(DdxColor.primaryMaterialColor.colorHex,
+            DdxColor.primaryMaterialColor.swatch),
       ),
       home: const MyHomePage(title: 'Dooadex Home Page'),
     );
@@ -46,78 +47,78 @@ class _MyHomePageState extends State<MyHomePage> {
                   Container(
                     width: 20,
                     height: 20,
-                    color: DooadexColor.primary,
+                    color: DdxColor.primary,
                   ),
                   Container(
                     width: 20,
                     height: 20,
-                    color: DooadexColor.secondary,
+                    color: DdxColor.secondary,
                   ),
                   Container(
                     width: 20,
                     height: 20,
-                    color: DooadexColor.tertiary,
+                    color: DdxColor.tertiary,
                   ),
                   Spacer(),
                   Container(
                     width: 20,
                     height: 20,
-                    color: DooadexColor.pinkLavender,
+                    color: DdxColor.pinkLavender,
                   ),
                   Container(
                     width: 20,
                     height: 20,
-                    color: DooadexColor.lilac,
+                    color: DdxColor.lilac,
                   ),
                   Container(
                     width: 20,
                     height: 20,
-                    color: DooadexColor.bilobaFlower,
+                    color: DdxColor.bilobaFlower,
                   ),
                   Container(
                     width: 20,
                     height: 20,
-                    color: DooadexColor.veryPeri,
+                    color: DdxColor.veryPeri,
                   ),
                   Container(
                     width: 20,
                     height: 20,
-                    color: DooadexColor.purpleMountainMajesty,
+                    color: DdxColor.purpleMountainMajesty,
                   ),
                   Container(
                     width: 20,
                     height: 20,
-                    color: DooadexColor.royalPurple,
+                    color: DdxColor.royalPurple,
                   ),
                   Container(
                     width: 20,
                     height: 20,
-                    color: DooadexColor.deepPurple,
+                    color: DdxColor.deepPurple,
                   ),
                   Container(
                     width: 20,
                     height: 20,
-                    color: DooadexColor.tyrianPurple,
+                    color: DdxColor.tyrianPurple,
                   ),
                   Container(
                     width: 20,
                     height: 20,
-                    color: DooadexColor.mahoganyRed,
+                    color: DdxColor.mahoganyRed,
                   ),
                   Container(
                     width: 20,
                     height: 20,
-                    color: DooadexColor.carmine,
+                    color: DdxColor.carmine,
                   ),
                   Container(
                     width: 20,
                     height: 20,
-                    color: DooadexColor.oldLavender,
+                    color: DdxColor.oldLavender,
                   ),
                   Container(
                     width: 20,
                     height: 20,
-                    color: DooadexColor.grey,
+                    color: DdxColor.grey,
                   ),
                 ],
               ),

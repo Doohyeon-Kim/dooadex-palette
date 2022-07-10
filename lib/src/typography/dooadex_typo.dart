@@ -2,64 +2,64 @@ import 'package:flutter/painting.dart';
 
 import 'typo_constants.dart';
 
-class DooadexTypo {
-  DooadexTypo._();
+class DdxTypo {
+  DdxTypo._();
 
   static final TextStyle largeTitle = TextStyle(
       fontFamily: SFPro.fontFamily,
       fontFamilyFallback: const [AppleSDGothicNeo.fontFamily],
-      fontSize: Typo.fontSize.largeTitle,
-      fontWeight: Typo.fontWeight.regular);
+      fontSize: DdxTypoConstant.fontSize.largeTitle,
+      fontWeight: DdxTypoConstant.fontWeight.regular);
   static final TextStyle title1 = TextStyle(
       fontFamily: SFPro.fontFamily,
       fontFamilyFallback: const [AppleSDGothicNeo.fontFamily],
-      fontSize: Typo.fontSize.title1,
-      fontWeight: Typo.fontWeight.regular);
+      fontSize: DdxTypoConstant.fontSize.title1,
+      fontWeight: DdxTypoConstant.fontWeight.regular);
   static final TextStyle title2 = TextStyle(
       fontFamily: SFPro.fontFamily,
       fontFamilyFallback: const [AppleSDGothicNeo.fontFamily],
-      fontSize: Typo.fontSize.title2,
-      fontWeight: Typo.fontWeight.regular);
+      fontSize: DdxTypoConstant.fontSize.title2,
+      fontWeight: DdxTypoConstant.fontWeight.regular);
   static final TextStyle title3 = TextStyle(
       fontFamily: SFPro.fontFamily,
       fontFamilyFallback: const [AppleSDGothicNeo.fontFamily],
-      fontSize: Typo.fontSize.title3,
-      fontWeight: Typo.fontWeight.regular);
+      fontSize: DdxTypoConstant.fontSize.title3,
+      fontWeight: DdxTypoConstant.fontWeight.regular);
   static final TextStyle headline = TextStyle(
       fontFamily: SFPro.fontFamily,
       fontFamilyFallback: const [AppleSDGothicNeo.fontFamily],
-      fontSize: Typo.fontSize.headline,
-      fontWeight: Typo.fontWeight.semiBold);
+      fontSize: DdxTypoConstant.fontSize.headline,
+      fontWeight: DdxTypoConstant.fontWeight.semiBold);
   static final TextStyle body = TextStyle(
       fontFamily: SFPro.fontFamily,
       fontFamilyFallback: const [AppleSDGothicNeo.fontFamily],
-      fontSize: Typo.fontSize.body,
-      fontWeight: Typo.fontWeight.regular);
+      fontSize: DdxTypoConstant.fontSize.body,
+      fontWeight: DdxTypoConstant.fontWeight.regular);
   static final TextStyle callout = TextStyle(
       fontFamily: SFPro.fontFamily,
       fontFamilyFallback: const [AppleSDGothicNeo.fontFamily],
-      fontSize: Typo.fontSize.callout,
-      fontWeight: Typo.fontWeight.regular);
+      fontSize: DdxTypoConstant.fontSize.callout,
+      fontWeight: DdxTypoConstant.fontWeight.regular);
   static final TextStyle subhead = TextStyle(
       fontFamily: SFPro.fontFamily,
       fontFamilyFallback: const [AppleSDGothicNeo.fontFamily],
-      fontSize: Typo.fontSize.subhead,
-      fontWeight: Typo.fontWeight.regular);
+      fontSize: DdxTypoConstant.fontSize.subhead,
+      fontWeight: DdxTypoConstant.fontWeight.regular);
   static final TextStyle footnote = TextStyle(
       fontFamily: SFPro.fontFamily,
       fontFamilyFallback: const [AppleSDGothicNeo.fontFamily],
-      fontSize: Typo.fontSize.footnote,
-      fontWeight: Typo.fontWeight.regular);
+      fontSize: DdxTypoConstant.fontSize.footnote,
+      fontWeight: DdxTypoConstant.fontWeight.regular);
   static final TextStyle caption1 = TextStyle(
       fontFamily: SFPro.fontFamily,
       fontFamilyFallback: const [AppleSDGothicNeo.fontFamily],
-      fontSize: Typo.fontSize.caption1,
-      fontWeight: Typo.fontWeight.regular);
+      fontSize: DdxTypoConstant.fontSize.caption1,
+      fontWeight: DdxTypoConstant.fontWeight.regular);
   static final TextStyle caption2 = TextStyle(
       fontFamily: SFPro.fontFamily,
       fontFamilyFallback: const [AppleSDGothicNeo.fontFamily],
-      fontSize: Typo.fontSize.caption2,
-      fontWeight: Typo.fontWeight.regular);
+      fontSize: DdxTypoConstant.fontSize.caption2,
+      fontWeight: DdxTypoConstant.fontWeight.regular);
 }
 
 class HIGTypo {
@@ -68,58 +68,58 @@ class HIGTypo {
   static final TextStyle largeTitle = TextStyle(
       fontFamily: SFPro.fontFamily,
       fontFamilyFallback: const [AppleSDGothicNeo.fontFamily],
-      fontSize: Typo.fontSize.largeTitle,
-      fontWeight: Typo.fontWeight.regular);
+      fontSize: DdxTypoConstant.fontSize.largeTitle,
+      fontWeight: DdxTypoConstant.fontWeight.regular);
   static final TextStyle title1 = TextStyle(
       fontFamily: SFPro.fontFamily,
       fontFamilyFallback: const [AppleSDGothicNeo.fontFamily],
-      fontSize: Typo.fontSize.title1,
-      fontWeight: Typo.fontWeight.regular);
+      fontSize: DdxTypoConstant.fontSize.title1,
+      fontWeight: DdxTypoConstant.fontWeight.regular);
   static final TextStyle title2 = TextStyle(
       fontFamily: SFPro.fontFamily,
       fontFamilyFallback: const [AppleSDGothicNeo.fontFamily],
-      fontSize: Typo.fontSize.title2,
-      fontWeight: Typo.fontWeight.regular);
+      fontSize: DdxTypoConstant.fontSize.title2,
+      fontWeight: DdxTypoConstant.fontWeight.regular);
   static final TextStyle title3 = TextStyle(
       fontFamily: SFPro.fontFamily,
       fontFamilyFallback: const [AppleSDGothicNeo.fontFamily],
-      fontSize: Typo.fontSize.title3,
-      fontWeight: Typo.fontWeight.regular);
+      fontSize: DdxTypoConstant.fontSize.title3,
+      fontWeight: DdxTypoConstant.fontWeight.regular);
   static final TextStyle headline = TextStyle(
       fontFamily: SFPro.fontFamily,
       fontFamilyFallback: const [AppleSDGothicNeo.fontFamily],
-      fontSize: Typo.fontSize.headline,
-      fontWeight: Typo.fontWeight.semiBold);
+      fontSize: DdxTypoConstant.fontSize.headline,
+      fontWeight: DdxTypoConstant.fontWeight.semiBold);
   static final TextStyle body = TextStyle(
       fontFamily: SFPro.fontFamily,
       fontFamilyFallback: const [AppleSDGothicNeo.fontFamily],
-      fontSize: Typo.fontSize.body,
-      fontWeight: Typo.fontWeight.regular);
+      fontSize: DdxTypoConstant.fontSize.body,
+      fontWeight: DdxTypoConstant.fontWeight.regular);
   static final TextStyle callout = TextStyle(
       fontFamily: SFPro.fontFamily,
       fontFamilyFallback: const [AppleSDGothicNeo.fontFamily],
-      fontSize: Typo.fontSize.callout,
-      fontWeight: Typo.fontWeight.regular);
+      fontSize: DdxTypoConstant.fontSize.callout,
+      fontWeight: DdxTypoConstant.fontWeight.regular);
   static final TextStyle subhead = TextStyle(
       fontFamily: SFPro.fontFamily,
       fontFamilyFallback: const [AppleSDGothicNeo.fontFamily],
-      fontSize: Typo.fontSize.subhead,
-      fontWeight: Typo.fontWeight.regular);
+      fontSize: DdxTypoConstant.fontSize.subhead,
+      fontWeight: DdxTypoConstant.fontWeight.regular);
   static final TextStyle footnote = TextStyle(
       fontFamily: SFPro.fontFamily,
       fontFamilyFallback: const [AppleSDGothicNeo.fontFamily],
-      fontSize: Typo.fontSize.footnote,
-      fontWeight: Typo.fontWeight.regular);
+      fontSize: DdxTypoConstant.fontSize.footnote,
+      fontWeight: DdxTypoConstant.fontWeight.regular);
   static final TextStyle caption1 = TextStyle(
       fontFamily: SFPro.fontFamily,
       fontFamilyFallback: const [AppleSDGothicNeo.fontFamily],
-      fontSize: Typo.fontSize.caption1,
-      fontWeight: Typo.fontWeight.regular);
+      fontSize: DdxTypoConstant.fontSize.caption1,
+      fontWeight: DdxTypoConstant.fontWeight.regular);
   static final TextStyle caption2 = TextStyle(
       fontFamily: SFPro.fontFamily,
       fontFamilyFallback: const [AppleSDGothicNeo.fontFamily],
-      fontSize: Typo.fontSize.caption2,
-      fontWeight: Typo.fontWeight.regular);
+      fontSize: DdxTypoConstant.fontSize.caption2,
+      fontWeight: DdxTypoConstant.fontWeight.regular);
 }
 
 class M3Typo {
@@ -128,78 +128,78 @@ class M3Typo {
   static final TextStyle displayLarge = TextStyle(
       fontFamily: Roboto.fontFamily,
       fontFamilyFallback: const [NotoSansKR.fontFamily],
-      fontSize: Typo.fontSize.displayLarge,
-      fontWeight: Typo.fontWeight.regular);
+      fontSize: DdxTypoConstant.fontSize.displayLarge,
+      fontWeight: DdxTypoConstant.fontWeight.regular);
   static final TextStyle displayMedium = TextStyle(
       fontFamily: Roboto.fontFamily,
       fontFamilyFallback: const [NotoSansKR.fontFamily],
-      fontSize: Typo.fontSize.displayMedium,
-      fontWeight: Typo.fontWeight.regular);
+      fontSize: DdxTypoConstant.fontSize.displayMedium,
+      fontWeight: DdxTypoConstant.fontWeight.regular);
   static final TextStyle displaySmall = TextStyle(
       fontFamily: Roboto.fontFamily,
       fontFamilyFallback: const [NotoSansKR.fontFamily],
-      fontSize: Typo.fontSize.displaySmall,
-      fontWeight: Typo.fontWeight.regular);
+      fontSize: DdxTypoConstant.fontSize.displaySmall,
+      fontWeight: DdxTypoConstant.fontWeight.regular);
   static final TextStyle headlineLarge = TextStyle(
       fontFamily: Roboto.fontFamily,
       fontFamilyFallback: const [NotoSansKR.fontFamily],
-      fontSize: Typo.fontSize.headlineLarge,
-      fontWeight: Typo.fontWeight.regular);
+      fontSize: DdxTypoConstant.fontSize.headlineLarge,
+      fontWeight: DdxTypoConstant.fontWeight.regular);
   static final TextStyle headlineMedium = TextStyle(
       fontFamily: Roboto.fontFamily,
       fontFamilyFallback: const [NotoSansKR.fontFamily],
-      fontSize: Typo.fontSize.headlineMedium,
-      fontWeight: Typo.fontWeight.regular);
+      fontSize: DdxTypoConstant.fontSize.headlineMedium,
+      fontWeight: DdxTypoConstant.fontWeight.regular);
   static final TextStyle headlineSmall = TextStyle(
       fontFamily: Roboto.fontFamily,
       fontFamilyFallback: const [NotoSansKR.fontFamily],
-      fontSize: Typo.fontSize.headlineSmall,
-      fontWeight: Typo.fontWeight.regular);
+      fontSize: DdxTypoConstant.fontSize.headlineSmall,
+      fontWeight: DdxTypoConstant.fontWeight.regular);
   static final TextStyle titleLarge = TextStyle(
       fontFamily: Roboto.fontFamily,
       fontFamilyFallback: const [NotoSansKR.fontFamily],
-      fontSize: Typo.fontSize.titleLarge,
-      fontWeight: Typo.fontWeight.regular);
+      fontSize: DdxTypoConstant.fontSize.titleLarge,
+      fontWeight: DdxTypoConstant.fontWeight.regular);
   static final TextStyle titleMedium = TextStyle(
       fontFamily: Roboto.fontFamily,
       fontFamilyFallback: const [NotoSansKR.fontFamily],
-      fontSize: Typo.fontSize.titleMedium,
-      fontWeight: Typo.fontWeight.medium);
+      fontSize: DdxTypoConstant.fontSize.titleMedium,
+      fontWeight: DdxTypoConstant.fontWeight.medium);
   static final TextStyle titleSmall = TextStyle(
       fontFamily: Roboto.fontFamily,
       fontFamilyFallback: const [NotoSansKR.fontFamily],
-      fontSize: Typo.fontSize.titleSmall,
-      fontWeight: Typo.fontWeight.medium);
+      fontSize: DdxTypoConstant.fontSize.titleSmall,
+      fontWeight: DdxTypoConstant.fontWeight.medium);
   static final TextStyle labelLarge = TextStyle(
       fontFamily: Roboto.fontFamily,
       fontFamilyFallback: const [NotoSansKR.fontFamily],
-      fontSize: Typo.fontSize.labelLarge,
-      fontWeight: Typo.fontWeight.medium);
+      fontSize: DdxTypoConstant.fontSize.labelLarge,
+      fontWeight: DdxTypoConstant.fontWeight.medium);
   static final TextStyle labelMedium = TextStyle(
       fontFamily: Roboto.fontFamily,
       fontFamilyFallback: const [NotoSansKR.fontFamily],
-      fontSize: Typo.fontSize.labelMedium,
-      fontWeight: Typo.fontWeight.medium);
+      fontSize: DdxTypoConstant.fontSize.labelMedium,
+      fontWeight: DdxTypoConstant.fontWeight.medium);
   static final TextStyle labelSmall = TextStyle(
       fontFamily: Roboto.fontFamily,
       fontFamilyFallback: const [NotoSansKR.fontFamily],
-      fontSize: Typo.fontSize.labelSmall,
-      fontWeight: Typo.fontWeight.medium);
+      fontSize: DdxTypoConstant.fontSize.labelSmall,
+      fontWeight: DdxTypoConstant.fontWeight.medium);
   static final TextStyle bodyLarge = TextStyle(
       fontFamily: Roboto.fontFamily,
       fontFamilyFallback: const [NotoSansKR.fontFamily],
-      fontSize: Typo.fontSize.bodyLarge,
-      fontWeight: Typo.fontWeight.regular);
+      fontSize: DdxTypoConstant.fontSize.bodyLarge,
+      fontWeight: DdxTypoConstant.fontWeight.regular);
   static final TextStyle bodyMedium = TextStyle(
       fontFamily: Roboto.fontFamily,
       fontFamilyFallback: const [NotoSansKR.fontFamily],
-      fontSize: Typo.fontSize.bodyMedium,
-      fontWeight: Typo.fontWeight.medium);
+      fontSize: DdxTypoConstant.fontSize.bodyMedium,
+      fontWeight: DdxTypoConstant.fontWeight.medium);
   static final TextStyle bodySmall = TextStyle(
       fontFamily: Roboto.fontFamily,
       fontFamilyFallback: const [NotoSansKR.fontFamily],
-      fontSize: Typo.fontSize.bodySmall,
-      fontWeight: Typo.fontWeight.regular);
+      fontSize: DdxTypoConstant.fontSize.bodySmall,
+      fontWeight: DdxTypoConstant.fontWeight.regular);
 }
 
 class SFPro {

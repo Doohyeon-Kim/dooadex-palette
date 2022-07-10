@@ -1,6 +1,6 @@
 name: dooadex_palette
-description: A useful palette
-version: 0.0.3
+description: dooadex standard palette and useful palette.
+version: 0.0.4
 repository: "https://github.com/Doohyeon-Kim/dooadex-palette.git"
 
 environment:

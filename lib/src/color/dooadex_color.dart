@@ -4,8 +4,8 @@ import '../palette_tools.dart';
 import 'dooadex_color_swatch.dart';
 import 'material_color.dart';
 
-class DooadexColor {
-  DooadexColor._();
+class DdxColor {
+  DdxColor._();
 
   static const Color primary = bilobaFlower;
   static const Color secondary = royalPurple;
@@ -27,7 +27,7 @@ class DooadexColor {
   static const Color grey = Color(0xFF939597);
 
   static MaterialColor primaryMaterialColor = PaletteTools.colorTool
-      .generateMaterialColor(0xFF7851A9, DooadexPrimaryColorSwatch());
+      .generateMaterialColor(0xFF7851A9, DdxPrimaryColorSwatch());
   static MaterialColor secondaryMaterialColor = PaletteTools.colorTool
-      .generateMaterialColor(0xFF66023C, DooadexSecondaryColorSwatch());
+      .generateMaterialColor(0xFF66023C, DdxSecondaryColorSwatch());
 }
