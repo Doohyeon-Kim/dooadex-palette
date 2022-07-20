@@ -1,7 +1,7 @@
 import 'dart:ui';
 
 import '../palette_tools.dart';
-import 'dooadex_color_swatch.dart';
+import 'tstr_color_swatch.dart';
 import 'material_color.dart';
 
 class DdxColor {

@@ -15,7 +15,7 @@ abstract class DdxColorSwatch {
   abstract Color shade900;
 }
 
-/// You can make your own ColorSwatch in your project by implementing DooadexColorSwatch.
+/// You can make your own ColorSwatch in your project by implementing tstrColorSwatch.
 class DdxPrimaryColorSwatch extends DdxColorSwatch {
   @override
   Color shade50 = const Color(0xFFECE6F2);

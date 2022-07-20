@@ -208,39 +208,39 @@ class SFPro {
   static const String fontFamily = "SFPro";
 
   static TextStyle thin({required double fontSize}) {
-    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w100, package: "dooadex_palette");
+    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w100, package: "tstr_palette");
   }
 
   static TextStyle extraLight({required double fontSize}) {
-    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w200, package: "dooadex_palette");
+    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w200, package: "tstr_palette");
   }
 
   static TextStyle light({required double fontSize}) {
-    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w300, package: "dooadex_palette");
+    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w300, package: "tstr_palette");
   }
 
   static TextStyle regular({required double fontSize}) {
-    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w400, package: "dooadex_palette");
+    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w400, package: "tstr_palette");
   }
 
   static TextStyle medium({required double fontSize}) {
-    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w500, package: "dooadex_palette");
+    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w500, package: "tstr_palette");
   }
 
   static TextStyle semiBold({required double fontSize}) {
-    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w600, package: "dooadex_palette");
+    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w600, package: "tstr_palette");
   }
 
   static TextStyle bold({required double fontSize}) {
-    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w700, package: "dooadex_palette");
+    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w700, package: "tstr_palette");
   }
 
   static TextStyle extraBold({required double fontSize}) {
-    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w800, package: "dooadex_palette");
+    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w800, package: "tstr_palette");
   }
 
   static TextStyle black({required double fontSize}) {
-    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w900, package: "dooadex_palette");
+    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w900, package: "tstr_palette");
   }
 }
 
@@ -250,39 +250,39 @@ class AppleSDGothicNeo {
   static const String fontFamily = "AppleSDGothicNeo";
 
   static TextStyle thin({required double fontSize}) {
-    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w100, package: "dooadex_palette");
+    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w100, package: "tstr_palette");
   }
 
   static TextStyle extraLight({required double fontSize}) {
-    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w200, package: "dooadex_palette");
+    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w200, package: "tstr_palette");
   }
 
   static TextStyle light({required double fontSize}) {
-    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w300, package: "dooadex_palette");
+    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w300, package: "tstr_palette");
   }
 
   static TextStyle regular({required double fontSize}) {
-    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w400, package: "dooadex_palette");
+    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w400, package: "tstr_palette");
   }
 
   static TextStyle medium({required double fontSize}) {
-    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w500, package: "dooadex_palette");
+    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w500, package: "tstr_palette");
   }
 
   static TextStyle semiBold({required double fontSize}) {
-    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w600, package: "dooadex_palette");
+    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w600, package: "tstr_palette");
   }
 
   static TextStyle bold({required double fontSize}) {
-    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w700, package: "dooadex_palette");
+    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w700, package: "tstr_palette");
   }
 
   static TextStyle extraBold({required double fontSize}) {
-    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w800, package: "dooadex_palette");
+    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w800, package: "tstr_palette");
   }
 
   static TextStyle black({required double fontSize}) {
-    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w900, package: "dooadex_palette");
+    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w900, package: "tstr_palette");
   }
 }
 
@@ -292,27 +292,27 @@ class Roboto {
   static const String fontFamily = "Roboto";
 
   static TextStyle thin({required double fontSize}) {
-    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w100, package: "dooadex_palette");
+    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w100, package: "tstr_palette");
   }
 
   static TextStyle light({required double fontSize}) {
-    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w300, package: "dooadex_palette");
+    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w300, package: "tstr_palette");
   }
 
   static TextStyle regular({required double fontSize}) {
-    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w400, package: "dooadex_palette");
+    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w400, package: "tstr_palette");
   }
 
   static TextStyle medium({required double fontSize}) {
-    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w500, package: "dooadex_palette");
+    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w500, package: "tstr_palette");
   }
 
   static TextStyle bold({required double fontSize}) {
-    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w700, package: "dooadex_palette");
+    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w700, package: "tstr_palette");
   }
 
   static TextStyle black({required double fontSize}) {
-    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w900, package: "dooadex_palette");
+    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w900, package: "tstr_palette");
   }
 }
 
@@ -322,26 +322,26 @@ class NotoSansKR {
   static const String fontFamily = "NotoSansKR";
 
   static TextStyle thin({required double fontSize}) {
-    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w100, package: "dooadex_palette");
+    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w100, package: "tstr_palette");
   }
 
   static TextStyle light({required double fontSize}) {
-    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w300, package: "dooadex_palette");
+    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w300, package: "tstr_palette");
   }
 
   static TextStyle regular({required double fontSize}) {
-    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w400, package: "dooadex_palette");
+    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w400, package: "tstr_palette");
   }
 
   static TextStyle medium({required double fontSize}) {
-    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w500, package: "dooadex_palette");
+    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w500, package: "tstr_palette");
   }
 
   static TextStyle bold({required double fontSize}) {
-    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w700, package: "dooadex_palette");
+    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w700, package: "tstr_palette");
   }
 
   static TextStyle black({required double fontSize}) {
-    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w900, package: "dooadex_palette");
+    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w900, package: "tstr_palette");
   }
 }
