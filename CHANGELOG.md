@@ -1,3 +1,3 @@
-## 0.0.4
+## 0.0.2
 
-* Changed Variable prefix Dooadex to Ddx.
+* package name changed from dooadex to twostrings.

@@ -1,11 +1,11 @@
 import 'dart:ui';
 
 import '../palette_tools.dart';
-import 'tstr_color_swatch.dart';
+import 'twostrings_color_swatch.dart';
 import 'material_color.dart';
 
-class DdxColor {
-  DdxColor._();
+class TwoStringsColor {
+  TwoStringsColor._();
 
   static const Color primary = bilobaFlower;
   static const Color secondary = royalPurple;
@@ -27,7 +27,7 @@ class DdxColor {
   static const Color grey = Color(0xFF939597);
 
   static MaterialColor primaryMaterialColor = PaletteTools.colorTool
-      .generateMaterialColor(0xFF7851A9, DdxPrimaryColorSwatch());
+      .generateMaterialColor(0xFF7851A9, TwoStringsPrimaryColorSwatch());
   static MaterialColor secondaryMaterialColor = PaletteTools.colorTool
-      .generateMaterialColor(0xFF66023C, DdxSecondaryColorSwatch());
+      .generateMaterialColor(0xFF66023C, TwoStringsSecondaryColorSwatch());
 }

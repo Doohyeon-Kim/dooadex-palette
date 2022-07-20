@@ -1,7 +1,7 @@
 import 'package:flutter/painting.dart';
 
 
-abstract class DdxColorSwatch {
+abstract class TwoStringsColorSwatch {
   final List<int> shadeLevel = [50, 100, 200, 300, 400, 500, 600, 700, 800, 900];
   abstract Color shade50;
   abstract Color shade100;
@@ -15,8 +15,8 @@ abstract class DdxColorSwatch {
   abstract Color shade900;
 }
 
-/// You can make your own ColorSwatch in your project by implementing tstrColorSwatch.
-class DdxPrimaryColorSwatch extends DdxColorSwatch {
+/// You can make your own ColorSwatch in your project by implementing twostringsColorSwatch.
+class TwoStringsPrimaryColorSwatch extends TwoStringsColorSwatch {
   @override
   Color shade50 = const Color(0xFFECE6F2);
 
@@ -48,7 +48,7 @@ class DdxPrimaryColorSwatch extends DdxColorSwatch {
   Color shade900 = const Color(0xFF341576);
 }
 
-class DdxSecondaryColorSwatch extends DdxColorSwatch {
+class TwoStringsSecondaryColorSwatch extends TwoStringsColorSwatch {
   @override
   Color shade50 = const Color(0xFFF7E1E9);
 

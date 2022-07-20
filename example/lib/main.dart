@@ -1,5 +1,6 @@
-import 'package:dooadex_palette/dooadex_palette.dart';
+
 import 'package:flutter/material.dart';
+import 'package:twostrings_palette/twostrings_palette.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,12 +13,12 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Dooadex Package Test App',
+      title: 'Two Strings Package Test App',
       theme: ThemeData(
-        primarySwatch: MaterialColor(DdxColor.primaryMaterialColor.colorHex,
-            DdxColor.primaryMaterialColor.swatch),
+        primarySwatch: MaterialColor(TwoStringsColor.primaryMaterialColor.colorHex,
+            TwoStringsColor.primaryMaterialColor.swatch),
       ),
-      home: const MyHomePage(title: 'Dooadex Home Page'),
+      home: const MyHomePage(title: 'Two Strings Home Page'),
     );
   }
 }
@@ -47,78 +48,78 @@ class _MyHomePageState extends State<MyHomePage> {
                   Container(
                     width: 20,
                     height: 20,
-                    color: DdxColor.primary,
+                    color: TwoStringsColor.primary,
                   ),
                   Container(
                     width: 20,
                     height: 20,
-                    color: DdxColor.secondary,
+                    color: TwoStringsColor.secondary,
                   ),
                   Container(
                     width: 20,
                     height: 20,
-                    color: DdxColor.tertiary,
+                    color: TwoStringsColor.tertiary,
                   ),
                   Spacer(),
                   Container(
                     width: 20,
                     height: 20,
-                    color: DdxColor.pinkLavender,
+                    color: TwoStringsColor.pinkLavender,
                   ),
                   Container(
                     width: 20,
                     height: 20,
-                    color: DdxColor.lilac,
+                    color: TwoStringsColor.lilac,
                   ),
                   Container(
                     width: 20,
                     height: 20,
-                    color: DdxColor.bilobaFlower,
+                    color: TwoStringsColor.bilobaFlower,
                   ),
                   Container(
                     width: 20,
                     height: 20,
-                    color: DdxColor.veryPeri,
+                    color: TwoStringsColor.veryPeri,
                   ),
                   Container(
                     width: 20,
                     height: 20,
-                    color: DdxColor.purpleMountainMajesty,
+                    color: TwoStringsColor.purpleMountainMajesty,
                   ),
                   Container(
                     width: 20,
                     height: 20,
-                    color: DdxColor.royalPurple,
+                    color: TwoStringsColor.royalPurple,
                   ),
                   Container(
                     width: 20,
                     height: 20,
-                    color: DdxColor.deepPurple,
+                    color: TwoStringsColor.deepPurple,
                   ),
                   Container(
                     width: 20,
                     height: 20,
-                    color: DdxColor.tyrianPurple,
+                    color: TwoStringsColor.tyrianPurple,
                   ),
                   Container(
                     width: 20,
                     height: 20,
-                    color: DdxColor.mahoganyRed,
+                    color: TwoStringsColor.mahoganyRed,
                   ),
                   Container(
                     width: 20,
                     height: 20,
-                    color: DdxColor.carmine,
+                    color: TwoStringsColor.carmine,
                   ),
                   Container(
                     width: 20,
                     height: 20,
-                    color: DdxColor.oldLavender,
+                    color: TwoStringsColor.oldLavender,
                   ),
                   Container(
                     width: 20,
                     height: 20,
-                    color: DdxColor.grey,
+                    color: TwoStringsColor.grey,
                   ),
                 ],
               ),

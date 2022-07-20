@@ -1,6 +1,6 @@
 import 'package:flutter/painting.dart';
 
-import 'color/dooadex_color_swatch.dart';
+import 'color/twostrings_color_swatch.dart';
 import 'color/material_color.dart';
 class PaletteTools {
   PaletteTools._();
@@ -14,7 +14,7 @@ class PaletteTools {
 
 class _ColorTool{
 
-   Map<int, Color> generateSwatch(DdxColorSwatch colorSwatch) {
+   Map<int, Color> generateSwatch(TwoStringsColorSwatch colorSwatch) {
     return {
       colorSwatch.shadeLevel[0]: colorSwatch.shade50,
       colorSwatch.shadeLevel[1]: colorSwatch.shade100,
@@ -29,7 +29,7 @@ class _ColorTool{
     };
   }
 
-   MaterialColor generateMaterialColor(int colorHex, DdxColorSwatch colorSwatch) {
+   MaterialColor generateMaterialColor(int colorHex, TwoStringsColorSwatch colorSwatch) {
     MaterialColor materialColor = MaterialColor();
     materialColor.colorHex = colorHex;
     materialColor.swatch = generateSwatch(colorSwatch);

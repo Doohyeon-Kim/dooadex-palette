@@ -17,7 +17,7 @@ void CreateAndAttachConsole() {
       _dup2(_fileno(stdout), 2);
     }
     std::ios::sync_with_stdio();
-    FlutterDesktopResyncOutputStreams();
+    FlutterDesktopResyncOutputwostringseams();
   }
 }
 

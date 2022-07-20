@@ -1,4 +1,4 @@
-# dooadex_palette
+# twostrings_palette
 
 ## Features
 

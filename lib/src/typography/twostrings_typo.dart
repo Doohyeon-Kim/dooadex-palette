@@ -2,64 +2,64 @@ import 'package:flutter/painting.dart';
 
 import 'typo_constants.dart';
 
-class DdxTypo {
-  DdxTypo._();
+class Typo {
+  Typo._();
 
   static final TextStyle largeTitle = TextStyle(
       fontFamily: SFPro.fontFamily,
       fontFamilyFallback: const [AppleSDGothicNeo.fontFamily],
-      fontSize: DdxTypoConstant.fontSize.largeTitle,
-      fontWeight: DdxTypoConstant.fontWeight.regular);
+      fontSize: TypoConst.fontSize.largeTitle,
+      fontWeight: TypoConst.fontWeight.regular);
   static final TextStyle title1 = TextStyle(
       fontFamily: SFPro.fontFamily,
       fontFamilyFallback: const [AppleSDGothicNeo.fontFamily],
-      fontSize: DdxTypoConstant.fontSize.title1,
-      fontWeight: DdxTypoConstant.fontWeight.regular);
+      fontSize: TypoConst.fontSize.title1,
+      fontWeight: TypoConst.fontWeight.regular);
   static final TextStyle title2 = TextStyle(
       fontFamily: SFPro.fontFamily,
       fontFamilyFallback: const [AppleSDGothicNeo.fontFamily],
-      fontSize: DdxTypoConstant.fontSize.title2,
-      fontWeight: DdxTypoConstant.fontWeight.regular);
+      fontSize: TypoConst.fontSize.title2,
+      fontWeight: TypoConst.fontWeight.regular);
   static final TextStyle title3 = TextStyle(
       fontFamily: SFPro.fontFamily,
       fontFamilyFallback: const [AppleSDGothicNeo.fontFamily],
-      fontSize: DdxTypoConstant.fontSize.title3,
-      fontWeight: DdxTypoConstant.fontWeight.regular);
+      fontSize: TypoConst.fontSize.title3,
+      fontWeight: TypoConst.fontWeight.regular);
   static final TextStyle headline = TextStyle(
       fontFamily: SFPro.fontFamily,
       fontFamilyFallback: const [AppleSDGothicNeo.fontFamily],
-      fontSize: DdxTypoConstant.fontSize.headline,
-      fontWeight: DdxTypoConstant.fontWeight.semiBold);
+      fontSize: TypoConst.fontSize.headline,
+      fontWeight: TypoConst.fontWeight.semiBold);
   static final TextStyle body = TextStyle(
       fontFamily: SFPro.fontFamily,
       fontFamilyFallback: const [AppleSDGothicNeo.fontFamily],
-      fontSize: DdxTypoConstant.fontSize.body,
-      fontWeight: DdxTypoConstant.fontWeight.regular);
+      fontSize: TypoConst.fontSize.body,
+      fontWeight: TypoConst.fontWeight.regular);
   static final TextStyle callout = TextStyle(
       fontFamily: SFPro.fontFamily,
       fontFamilyFallback: const [AppleSDGothicNeo.fontFamily],
-      fontSize: DdxTypoConstant.fontSize.callout,
-      fontWeight: DdxTypoConstant.fontWeight.regular);
+      fontSize: TypoConst.fontSize.callout,
+      fontWeight: TypoConst.fontWeight.regular);
   static final TextStyle subhead = TextStyle(
       fontFamily: SFPro.fontFamily,
       fontFamilyFallback: const [AppleSDGothicNeo.fontFamily],
-      fontSize: DdxTypoConstant.fontSize.subhead,
-      fontWeight: DdxTypoConstant.fontWeight.regular);
+      fontSize: TypoConst.fontSize.subhead,
+      fontWeight: TypoConst.fontWeight.regular);
   static final TextStyle footnote = TextStyle(
       fontFamily: SFPro.fontFamily,
       fontFamilyFallback: const [AppleSDGothicNeo.fontFamily],
-      fontSize: DdxTypoConstant.fontSize.footnote,
-      fontWeight: DdxTypoConstant.fontWeight.regular);
+      fontSize: TypoConst.fontSize.footnote,
+      fontWeight: TypoConst.fontWeight.regular);
   static final TextStyle caption1 = TextStyle(
       fontFamily: SFPro.fontFamily,
       fontFamilyFallback: const [AppleSDGothicNeo.fontFamily],
-      fontSize: DdxTypoConstant.fontSize.caption1,
-      fontWeight: DdxTypoConstant.fontWeight.regular);
+      fontSize: TypoConst.fontSize.caption1,
+      fontWeight: TypoConst.fontWeight.regular);
   static final TextStyle caption2 = TextStyle(
       fontFamily: SFPro.fontFamily,
       fontFamilyFallback: const [AppleSDGothicNeo.fontFamily],
-      fontSize: DdxTypoConstant.fontSize.caption2,
-      fontWeight: DdxTypoConstant.fontWeight.regular);
+      fontSize: TypoConst.fontSize.caption2,
+      fontWeight: TypoConst.fontWeight.regular);
 }
 
 class HIGTypo {
@@ -68,58 +68,58 @@ class HIGTypo {
   static final TextStyle largeTitle = TextStyle(
       fontFamily: SFPro.fontFamily,
       fontFamilyFallback: const [AppleSDGothicNeo.fontFamily],
-      fontSize: DdxTypoConstant.fontSize.largeTitle,
-      fontWeight: DdxTypoConstant.fontWeight.regular);
+      fontSize: TypoConst.fontSize.largeTitle,
+      fontWeight: TypoConst.fontWeight.regular);
   static final TextStyle title1 = TextStyle(
       fontFamily: SFPro.fontFamily,
       fontFamilyFallback: const [AppleSDGothicNeo.fontFamily],
-      fontSize: DdxTypoConstant.fontSize.title1,
-      fontWeight: DdxTypoConstant.fontWeight.regular);
+      fontSize: TypoConst.fontSize.title1,
+      fontWeight: TypoConst.fontWeight.regular);
   static final TextStyle title2 = TextStyle(
       fontFamily: SFPro.fontFamily,
       fontFamilyFallback: const [AppleSDGothicNeo.fontFamily],
-      fontSize: DdxTypoConstant.fontSize.title2,
-      fontWeight: DdxTypoConstant.fontWeight.regular);
+      fontSize: TypoConst.fontSize.title2,
+      fontWeight: TypoConst.fontWeight.regular);
   static final TextStyle title3 = TextStyle(
       fontFamily: SFPro.fontFamily,
       fontFamilyFallback: const [AppleSDGothicNeo.fontFamily],
-      fontSize: DdxTypoConstant.fontSize.title3,
-      fontWeight: DdxTypoConstant.fontWeight.regular);
+      fontSize: TypoConst.fontSize.title3,
+      fontWeight: TypoConst.fontWeight.regular);
   static final TextStyle headline = TextStyle(
       fontFamily: SFPro.fontFamily,
       fontFamilyFallback: const [AppleSDGothicNeo.fontFamily],
-      fontSize: DdxTypoConstant.fontSize.headline,
-      fontWeight: DdxTypoConstant.fontWeight.semiBold);
+      fontSize: TypoConst.fontSize.headline,
+      fontWeight: TypoConst.fontWeight.semiBold);
   static final TextStyle body = TextStyle(
       fontFamily: SFPro.fontFamily,
       fontFamilyFallback: const [AppleSDGothicNeo.fontFamily],
-      fontSize: DdxTypoConstant.fontSize.body,
-      fontWeight: DdxTypoConstant.fontWeight.regular);
+      fontSize: TypoConst.fontSize.body,
+      fontWeight: TypoConst.fontWeight.regular);
   static final TextStyle callout = TextStyle(
       fontFamily: SFPro.fontFamily,
       fontFamilyFallback: const [AppleSDGothicNeo.fontFamily],
-      fontSize: DdxTypoConstant.fontSize.callout,
-      fontWeight: DdxTypoConstant.fontWeight.regular);
+      fontSize: TypoConst.fontSize.callout,
+      fontWeight: TypoConst.fontWeight.regular);
   static final TextStyle subhead = TextStyle(
       fontFamily: SFPro.fontFamily,
       fontFamilyFallback: const [AppleSDGothicNeo.fontFamily],
-      fontSize: DdxTypoConstant.fontSize.subhead,
-      fontWeight: DdxTypoConstant.fontWeight.regular);
+      fontSize: TypoConst.fontSize.subhead,
+      fontWeight: TypoConst.fontWeight.regular);
   static final TextStyle footnote = TextStyle(
       fontFamily: SFPro.fontFamily,
       fontFamilyFallback: const [AppleSDGothicNeo.fontFamily],
-      fontSize: DdxTypoConstant.fontSize.footnote,
-      fontWeight: DdxTypoConstant.fontWeight.regular);
+      fontSize: TypoConst.fontSize.footnote,
+      fontWeight: TypoConst.fontWeight.regular);
   static final TextStyle caption1 = TextStyle(
       fontFamily: SFPro.fontFamily,
       fontFamilyFallback: const [AppleSDGothicNeo.fontFamily],
-      fontSize: DdxTypoConstant.fontSize.caption1,
-      fontWeight: DdxTypoConstant.fontWeight.regular);
+      fontSize: TypoConst.fontSize.caption1,
+      fontWeight: TypoConst.fontWeight.regular);
   static final TextStyle caption2 = TextStyle(
       fontFamily: SFPro.fontFamily,
       fontFamilyFallback: const [AppleSDGothicNeo.fontFamily],
-      fontSize: DdxTypoConstant.fontSize.caption2,
-      fontWeight: DdxTypoConstant.fontWeight.regular);
+      fontSize: TypoConst.fontSize.caption2,
+      fontWeight: TypoConst.fontWeight.regular);
 }
 
 class M3Typo {
@@ -128,78 +128,78 @@ class M3Typo {
   static final TextStyle displayLarge = TextStyle(
       fontFamily: Roboto.fontFamily,
       fontFamilyFallback: const [NotoSansKR.fontFamily],
-      fontSize: DdxTypoConstant.fontSize.displayLarge,
-      fontWeight: DdxTypoConstant.fontWeight.regular);
+      fontSize: TypoConst.fontSize.displayLarge,
+      fontWeight: TypoConst.fontWeight.regular);
   static final TextStyle displayMedium = TextStyle(
       fontFamily: Roboto.fontFamily,
       fontFamilyFallback: const [NotoSansKR.fontFamily],
-      fontSize: DdxTypoConstant.fontSize.displayMedium,
-      fontWeight: DdxTypoConstant.fontWeight.regular);
+      fontSize: TypoConst.fontSize.displayMedium,
+      fontWeight: TypoConst.fontWeight.regular);
   static final TextStyle displaySmall = TextStyle(
       fontFamily: Roboto.fontFamily,
       fontFamilyFallback: const [NotoSansKR.fontFamily],
-      fontSize: DdxTypoConstant.fontSize.displaySmall,
-      fontWeight: DdxTypoConstant.fontWeight.regular);
+      fontSize: TypoConst.fontSize.displaySmall,
+      fontWeight: TypoConst.fontWeight.regular);
   static final TextStyle headlineLarge = TextStyle(
       fontFamily: Roboto.fontFamily,
       fontFamilyFallback: const [NotoSansKR.fontFamily],
-      fontSize: DdxTypoConstant.fontSize.headlineLarge,
-      fontWeight: DdxTypoConstant.fontWeight.regular);
+      fontSize: TypoConst.fontSize.headlineLarge,
+      fontWeight: TypoConst.fontWeight.regular);
   static final TextStyle headlineMedium = TextStyle(
       fontFamily: Roboto.fontFamily,
       fontFamilyFallback: const [NotoSansKR.fontFamily],
-      fontSize: DdxTypoConstant.fontSize.headlineMedium,
-      fontWeight: DdxTypoConstant.fontWeight.regular);
+      fontSize: TypoConst.fontSize.headlineMedium,
+      fontWeight: TypoConst.fontWeight.regular);
   static final TextStyle headlineSmall = TextStyle(
       fontFamily: Roboto.fontFamily,
       fontFamilyFallback: const [NotoSansKR.fontFamily],
-      fontSize: DdxTypoConstant.fontSize.headlineSmall,
-      fontWeight: DdxTypoConstant.fontWeight.regular);
+      fontSize: TypoConst.fontSize.headlineSmall,
+      fontWeight: TypoConst.fontWeight.regular);
   static final TextStyle titleLarge = TextStyle(
       fontFamily: Roboto.fontFamily,
       fontFamilyFallback: const [NotoSansKR.fontFamily],
-      fontSize: DdxTypoConstant.fontSize.titleLarge,
-      fontWeight: DdxTypoConstant.fontWeight.regular);
+      fontSize: TypoConst.fontSize.titleLarge,
+      fontWeight: TypoConst.fontWeight.regular);
   static final TextStyle titleMedium = TextStyle(
       fontFamily: Roboto.fontFamily,
       fontFamilyFallback: const [NotoSansKR.fontFamily],
-      fontSize: DdxTypoConstant.fontSize.titleMedium,
-      fontWeight: DdxTypoConstant.fontWeight.medium);
+      fontSize: TypoConst.fontSize.titleMedium,
+      fontWeight: TypoConst.fontWeight.medium);
   static final TextStyle titleSmall = TextStyle(
       fontFamily: Roboto.fontFamily,
       fontFamilyFallback: const [NotoSansKR.fontFamily],
-      fontSize: DdxTypoConstant.fontSize.titleSmall,
-      fontWeight: DdxTypoConstant.fontWeight.medium);
+      fontSize: TypoConst.fontSize.titleSmall,
+      fontWeight: TypoConst.fontWeight.medium);
   static final TextStyle labelLarge = TextStyle(
       fontFamily: Roboto.fontFamily,
       fontFamilyFallback: const [NotoSansKR.fontFamily],
-      fontSize: DdxTypoConstant.fontSize.labelLarge,
-      fontWeight: DdxTypoConstant.fontWeight.medium);
+      fontSize: TypoConst.fontSize.labelLarge,
+      fontWeight: TypoConst.fontWeight.medium);
   static final TextStyle labelMedium = TextStyle(
       fontFamily: Roboto.fontFamily,
       fontFamilyFallback: const [NotoSansKR.fontFamily],
-      fontSize: DdxTypoConstant.fontSize.labelMedium,
-      fontWeight: DdxTypoConstant.fontWeight.medium);
+      fontSize: TypoConst.fontSize.labelMedium,
+      fontWeight: TypoConst.fontWeight.medium);
   static final TextStyle labelSmall = TextStyle(
       fontFamily: Roboto.fontFamily,
       fontFamilyFallback: const [NotoSansKR.fontFamily],
-      fontSize: DdxTypoConstant.fontSize.labelSmall,
-      fontWeight: DdxTypoConstant.fontWeight.medium);
+      fontSize: TypoConst.fontSize.labelSmall,
+      fontWeight: TypoConst.fontWeight.medium);
   static final TextStyle bodyLarge = TextStyle(
       fontFamily: Roboto.fontFamily,
       fontFamilyFallback: const [NotoSansKR.fontFamily],
-      fontSize: DdxTypoConstant.fontSize.bodyLarge,
-      fontWeight: DdxTypoConstant.fontWeight.regular);
+      fontSize: TypoConst.fontSize.bodyLarge,
+      fontWeight: TypoConst.fontWeight.regular);
   static final TextStyle bodyMedium = TextStyle(
       fontFamily: Roboto.fontFamily,
       fontFamilyFallback: const [NotoSansKR.fontFamily],
-      fontSize: DdxTypoConstant.fontSize.bodyMedium,
-      fontWeight: DdxTypoConstant.fontWeight.medium);
+      fontSize: TypoConst.fontSize.bodyMedium,
+      fontWeight: TypoConst.fontWeight.medium);
   static final TextStyle bodySmall = TextStyle(
       fontFamily: Roboto.fontFamily,
       fontFamilyFallback: const [NotoSansKR.fontFamily],
-      fontSize: DdxTypoConstant.fontSize.bodySmall,
-      fontWeight: DdxTypoConstant.fontWeight.regular);
+      fontSize: TypoConst.fontSize.bodySmall,
+      fontWeight: TypoConst.fontWeight.regular);
 }
 
 class SFPro {
@@ -208,39 +208,39 @@ class SFPro {
   static const String fontFamily = "SFPro";
 
   static TextStyle thin({required double fontSize}) {
-    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w100, package: "tstr_palette");
+    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w100, package: "twostrings_palette");
   }
 
   static TextStyle extraLight({required double fontSize}) {
-    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w200, package: "tstr_palette");
+    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w200, package: "twostrings_palette");
   }
 
   static TextStyle light({required double fontSize}) {
-    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w300, package: "tstr_palette");
+    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w300, package: "twostrings_palette");
   }
 
   static TextStyle regular({required double fontSize}) {
-    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w400, package: "tstr_palette");
+    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w400, package: "twostrings_palette");
   }
 
   static TextStyle medium({required double fontSize}) {
-    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w500, package: "tstr_palette");
+    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w500, package: "twostrings_palette");
   }
 
   static TextStyle semiBold({required double fontSize}) {
-    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w600, package: "tstr_palette");
+    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w600, package: "twostrings_palette");
   }
 
   static TextStyle bold({required double fontSize}) {
-    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w700, package: "tstr_palette");
+    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w700, package: "twostrings_palette");
   }
 
   static TextStyle extraBold({required double fontSize}) {
-    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w800, package: "tstr_palette");
+    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w800, package: "twostrings_palette");
   }
 
   static TextStyle black({required double fontSize}) {
-    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w900, package: "tstr_palette");
+    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w900, package: "twostrings_palette");
   }
 }
 
@@ -250,39 +250,39 @@ class AppleSDGothicNeo {
   static const String fontFamily = "AppleSDGothicNeo";
 
   static TextStyle thin({required double fontSize}) {
-    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w100, package: "tstr_palette");
+    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w100, package: "twostrings_palette");
   }
 
   static TextStyle extraLight({required double fontSize}) {
-    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w200, package: "tstr_palette");
+    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w200, package: "twostrings_palette");
   }
 
   static TextStyle light({required double fontSize}) {
-    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w300, package: "tstr_palette");
+    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w300, package: "twostrings_palette");
   }
 
   static TextStyle regular({required double fontSize}) {
-    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w400, package: "tstr_palette");
+    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w400, package: "twostrings_palette");
   }
 
   static TextStyle medium({required double fontSize}) {
-    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w500, package: "tstr_palette");
+    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w500, package: "twostrings_palette");
   }
 
   static TextStyle semiBold({required double fontSize}) {
-    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w600, package: "tstr_palette");
+    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w600, package: "twostrings_palette");
   }
 
   static TextStyle bold({required double fontSize}) {
-    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w700, package: "tstr_palette");
+    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w700, package: "twostrings_palette");
   }
 
   static TextStyle extraBold({required double fontSize}) {
-    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w800, package: "tstr_palette");
+    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w800, package: "twostrings_palette");
   }
 
   static TextStyle black({required double fontSize}) {
-    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w900, package: "tstr_palette");
+    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w900, package: "twostrings_palette");
   }
 }
 
@@ -292,27 +292,27 @@ class Roboto {
   static const String fontFamily = "Roboto";
 
   static TextStyle thin({required double fontSize}) {
-    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w100, package: "tstr_palette");
+    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w100, package: "twostrings_palette");
   }
 
   static TextStyle light({required double fontSize}) {
-    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w300, package: "tstr_palette");
+    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w300, package: "twostrings_palette");
   }
 
   static TextStyle regular({required double fontSize}) {
-    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w400, package: "tstr_palette");
+    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w400, package: "twostrings_palette");
   }
 
   static TextStyle medium({required double fontSize}) {
-    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w500, package: "tstr_palette");
+    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w500, package: "twostrings_palette");
   }
 
   static TextStyle bold({required double fontSize}) {
-    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w700, package: "tstr_palette");
+    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w700, package: "twostrings_palette");
   }
 
   static TextStyle black({required double fontSize}) {
-    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w900, package: "tstr_palette");
+    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w900, package: "twostrings_palette");
   }
 }
 
@@ -322,26 +322,26 @@ class NotoSansKR {
   static const String fontFamily = "NotoSansKR";
 
   static TextStyle thin({required double fontSize}) {
-    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w100, package: "tstr_palette");
+    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w100, package: "twostrings_palette");
   }
 
   static TextStyle light({required double fontSize}) {
-    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w300, package: "tstr_palette");
+    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w300, package: "twostrings_palette");
   }
 
   static TextStyle regular({required double fontSize}) {
-    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w400, package: "tstr_palette");
+    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w400, package: "twostrings_palette");
   }
 
   static TextStyle medium({required double fontSize}) {
-    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w500, package: "tstr_palette");
+    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w500, package: "twostrings_palette");
   }
 
   static TextStyle bold({required double fontSize}) {
-    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w700, package: "tstr_palette");
+    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w700, package: "twostrings_palette");
   }
 
   static TextStyle black({required double fontSize}) {
-    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w900, package: "tstr_palette");
+    return TextStyle(fontFamily: fontFamily, fontSize: fontSize, fontWeight: FontWeight.w900, package: "twostrings_palette");
   }
 }

@@ -1,7 +1,7 @@
-name: dooadex_palette
-description: dooadex standard palette and useful palette.
-version: 0.0.4
-repository: "https://github.com/Doohyeon-Kim/dooadex-palette.git"
+name: twostrings_palette
+description: twostrings standard palette.
+version: 0.0.2
+repository: "https://github.com/Doohyeon-Kim/twostrings-palette.git"
 
 environment:
   sdk: ">=2.17.0 <3.0.0"

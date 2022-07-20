@@ -1,7 +1,7 @@
 import 'dart:ui';
 
-class DdxTypoConstant {
-  DdxTypoConstant._();
+class TypoConst {
+  TypoConst._();
 
   // ignore: library_private_types_in_public_api
   static _FontWeight fontWeight = _FontWeight();
